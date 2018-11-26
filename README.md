@@ -1,10 +1,6 @@
-# VUC
-
-标签（空格分隔）： vue
-
----
-
 ## vuc
+
+![image](https://github.com/loo41/vuc/tree/master/doc/canvas.gif)
 
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
