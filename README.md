@@ -1,6 +1,9 @@
 ## vuc
 
-![image](https://github.com/loo41/blob/vuc/master/doc/canvas.gif)
+---
+
+![image](https://github.com/loo41/vuc/blob/master/doc/canvas.gif)
+
 
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
