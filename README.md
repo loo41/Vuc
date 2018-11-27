@@ -9,7 +9,7 @@
 
 ### 组件
 
-[vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
+[vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)(bug 修复中 不影响使用)
 
 [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel)
 
