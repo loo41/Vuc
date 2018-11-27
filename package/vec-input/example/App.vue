@@ -2,9 +2,11 @@
   <div id="app">
     <vucInput 
       type="icon"
+      v-model="inputValue"
     />
     <vucInput 
       type="square"
+      v-model="inputValue2"
     />
     <vucInput 
       v-model="inputValue3"
@@ -15,7 +17,7 @@
 </template>
 
 <script>
-import {vucInput} from '../dist/vuc-input.js'
+import {vucInput} from '../src/main.js'
 export default {
   data () {
     return {

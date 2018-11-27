@@ -1,12 +1,13 @@
 <template>
-  <div ref="inputBox" class="canvas-input" :style="'height:' + H + 'px;width:' + W + 'px;padding:' + padding + 'px'">
-    <canvas class="canvas" ref="canvas" :height="H" :width="W" @click="_checkFocus"></canvas>
+  <div ref="inputBox" class="canvas-input" :style="'height:' + H + 'px;width:' + W + 'px;padding:' + padding + 'px'" >
+    <canvas class="canvas" ref="canvas" :height="H" :width="W"  v-on:click="_checkFocus"></canvas>
     <div class="input-box">
       <input
         ref="input"
         @change="_change"
         @focus="_focus"
         @blur="_blur"
+        type="text"
         v-bind:value="value"
         :autofocus="autofocus? 'autofocus': null"
         :placeholder="helpText"
@@ -125,8 +126,21 @@ export default {
     }
   },
   methods: {
-    _checkFocus (e) {
+    _moveEnd (obj) {
+      let len = obj.value.length
+      if (document.selection) {
+        let sel = obj.createTextRange()
+        sel.moveStart('character', len)
+        sel.collapse()
+        sel.select()
+      } else if (typeof obj.selectionStart == 'number'
+      && typeof obj.selectionEnd == 'number') {
+        obj.selectionStart = obj.selectionEnd = len
+      }
+    },
+    _checkFocus () {
       this.$refs.input.focus()
+      this._moveEnd(this.$refs.input)
     },
     _setAnimationLocation (someDiffet, oldValue) {
       const offsetLeft = Number(this.padding)
