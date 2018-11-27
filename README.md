@@ -1,16 +1,15 @@
-# VUC
-
-标签（空格分隔）： vue
+## vuc
 
 ---
 
-## vuc
+![image](https://github.com/loo41/vuc/blob/master/doc/canvas.gif)
+
 
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
 ### 组件
 
-[vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
+[vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) (bug 修复中不影响使用)
 
 [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel)
 
