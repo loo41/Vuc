@@ -26,6 +26,19 @@
 [MaterialImage](https://github.com/yscoder/MaterialImage)
 
 
+### 测试
+
+- 每个包都是可以进行开发调试
+
+- 克隆或下载库之后打开你需要调试的包
+
+- npm install
+
+- npm run dev (调试模式，将 webpack 的 entry 路径改为 ./example/main.js)
+
+- npm run build （打包模式，将 webpack 的 entry 路径改为 ./src/main.js）
+
+
 ### 开发计划
 
 - canvas 画板插件
