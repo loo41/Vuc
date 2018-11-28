@@ -1,10 +1,10 @@
 {
-  "name": "vuc-input",
+  "name": "vuc-identify",
   "description": "A vue-canvas effects components",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "ChenYong Tian <1805170243@qq.com>",
   "license": "MIT",
-  "main": "dist/vuc-input.js",
+  "main": "dist/vuc-identify.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -40,7 +40,7 @@
   "keywords": [
     "vue",
     "canvas",
-    "input",
+    "identify",
     "effects"
   ]
 }

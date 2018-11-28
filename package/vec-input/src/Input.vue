@@ -1,5 +1,5 @@
 <template>
-  <div ref="inputBox" class="canvas-input" :style="'height:' + H + 'px;width:' + W + 'px;padding:' + padding + 'px'" >
+  <div ref="inputBox" class="canvas-input" :style="'height:' + H + 'px;width:' + W + 'px;padding:' + padding + 'px'" @mousedown="_checkFocus">
     <canvas class="canvas" ref="canvas" :height="H" :width="W"  v-on:click="_checkFocus"></canvas>
     <div class="input-box">
       <input
@@ -139,7 +139,8 @@ export default {
       }
     },
     _checkFocus () {
-      this.$refs.input.focus()
+      console.log('1')
+      setTimeout(() => this.$refs.input.focus())
       this._moveEnd(this.$refs.input)
     },
     _setAnimationLocation (someDiffet, oldValue) {
@@ -353,6 +354,7 @@ export default {
     },
     _input (e) {
       this.$emit('input', e.target.value)
+      return false
     }
   }
 }
