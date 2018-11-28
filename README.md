@@ -8,6 +8,7 @@
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
 ### 组件
+[vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify)
 
 [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
 
@@ -24,7 +25,7 @@
 
 [MaterialImage](https://github.com/yscoder/MaterialImage)
 
+
 ### 开发计划
 
 - canvas 画板插件
-- canvas 生成验证码插件
