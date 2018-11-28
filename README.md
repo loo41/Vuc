@@ -4,24 +4,22 @@
 
 ![image](https://github.com/loo41/vuc/blob/master/doc/canvas.gif)
 
+---
 
-### [效果预览](https://loo41.github.io/vuc/index.html)
+### [demo预览](https://loo41.github.io/vuc/index.html)
+
+---
 
 ### 组件
-- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) 
-- [效果预览](http://vuc.tianchenyong.top/#/)
+- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
-- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
-- [效果预览](http://vuc.tianchenyong.top/#/identify)
+- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) [👀](http://vuc.tianchenyong.top/#/identify)
 
-- [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel)
-- [效果预览](http://vuc.tianchenyong.top/#/carousel)
+- [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel) [👁️](http://vuc.tianchenyong.top/#/carousel)
 
-- [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image)
-- [效果预览](http://vuc.tianchenyong.top/#/image)
+- [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image) [👀](http://vuc.tianchenyong.top/#/image)
 
-- [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material)
-- [效果预览](http://vuc.tianchenyong.top/#/materia)
+- [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) [👁️](http://vuc.tianchenyong.top/#/materia)
 
 
 ### 参考
@@ -47,3 +45,13 @@
 ### 开发计划
 
 - canvas 画板插件
+
+### Tip
+
+- 每个包是单独加载
+- demo配置不完整
+
+### END
+```
+期待您的加入
+```
