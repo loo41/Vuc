@@ -8,15 +8,20 @@
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
 ### 组件
-- [vuc-identify 新](https://github.com/loo41/vuc/tree/master/package/vuc-identify)
+- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) 
+- [效果预览](http://vuc.tianchenyong.top/#/)
 
 - [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
+- [效果预览](http://vuc.tianchenyong.top/#/identify)
 
 - [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel)
+- [效果预览](http://vuc.tianchenyong.top/#/carousel)
 
 - [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image)
+- [效果预览](http://vuc.tianchenyong.top/#/image)
 
 - [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material)
+- [效果预览](http://vuc.tianchenyong.top/#/materia)
 
 
 ### 参考
