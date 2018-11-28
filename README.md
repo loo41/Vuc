@@ -8,7 +8,7 @@
 ### [效果预览](https://loo41.github.io/vuc/index.html)
 
 ### 组件
-[vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify)
+[vuc-identify 新](https://github.com/loo41/vuc/tree/master/package/vuc-identify)
 
 [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input)
 
