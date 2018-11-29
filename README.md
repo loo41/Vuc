@@ -10,6 +10,29 @@
 
 ---
 
+### 安装
+```
+npm install --save 对应的包 (vuc-input)
+
+yarn add 对应的包 (vuc-input)
+```
+
+### 使用
+```
+// vuc-input 包
+
+import vucInput from 'vuc-input'
+Vue.use(vucInput)
+
+局部
+import {vucInput} from 'vuc-input'
+export default {
+  components: {vuc-input}
+}
+```
+
+---
+
 ### 组件
 - [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
