@@ -6,7 +6,7 @@
 
 ---
 
-### [demo预览](https://loo41.github.io/vuc/index.html)
+### [demo预览](http://vuc.tianchenyong.top)
 
 ---
 
