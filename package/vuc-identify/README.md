@@ -23,7 +23,7 @@
     局部
     import {vucIdentify} from 'vuc-identify'
     export default {
-      components: {vuc-identify}
+      components: {vucIdentify}
     }
     
 ```

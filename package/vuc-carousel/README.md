@@ -23,7 +23,7 @@
     局部
     import {vucCarousel} from 'vuc-carousel'
     export default {
-      components: {vuc-carousel}
+      components: {vucCarousel}
     }
     
 ```

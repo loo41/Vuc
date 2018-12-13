@@ -23,7 +23,7 @@
     局部
     import {vucImage} from 'vuc-image'
     export default {
-      components: {vuc-image}
+      components: {vucImage}
     }
     
 ```

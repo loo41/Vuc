@@ -23,7 +23,7 @@
     局部
     import {vucMaterial} from 'vuc-material'
     export default {
-      components: {vuc-material}
+      components: {vucMaterial}
     }
     
 ```
