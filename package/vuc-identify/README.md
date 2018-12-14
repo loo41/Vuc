@@ -37,6 +37,7 @@
 | color    | Array         | []         | 绘制粒子和干扰线效果颜色 |
 | H        | number        | 150         | 高|
 | W        | number        | 300         | 宽|
+|particleNum| number       | 150         | 粒子数量 |
 |font      | Array         | [60, 80]    | 绘制字体大小的区间 |
 |text      | String        | loo41       | 文本 |
 |textColor | Array         | []          | 绘制文本的颜色 如果不存在 会使用随机色|

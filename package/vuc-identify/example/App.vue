@@ -2,7 +2,8 @@
   <div id="app">
     <vuc-identify 
       :text="text" 
-      :textValue="textValue" 
+      :textValue="textValue"
+      :type="type"
       :clickQr="clickQr"
       :random="false"
       :clickStatus="true"
@@ -15,11 +16,16 @@ import {vucIdentify} from '../src/main.js'
 export default {
   data () {
     return {
-      text: 'adwwd'
+      text: 'adwwd',
+      type: 'rect'
     }
   },
   components: {vucIdentify},
-  mounted () {},
+  mounted () {
+    setTimeout(() => {
+      this.type = 'icon'
+    }, 3000)
+  },
   methods: {
     clickQr (text) {
       console.log(text)

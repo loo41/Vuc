@@ -41,6 +41,10 @@ export default {
       type: Number,
       default: 300
     },
+    particleNum: {
+      type: Number,
+      default: 150
+    },
     color: {
       type: Array,
       default: () => []
@@ -129,6 +133,7 @@ export default {
       this._newQr()
     },
     styleType () {this._newQr()},
+    particleNum () {this._newQr()},
     type () {this._newQr()}
   },
   methods: {
@@ -174,7 +179,7 @@ export default {
       this._ctx = this.$refs.canvas.getContext('2d')
     },
     _create () {
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < this.particleNum; i++) {
         this.particle.push({
           x: Math.floor(this.W * Math.random()),
           y: Math.floor(this.H * Math.random()),
@@ -198,7 +203,9 @@ export default {
           case 'icon':
             var img = new Image()
             img.src = this.drawImg.length? this.drawImg[Math.floor(this.drawImg.length * Math.random())]: this.img
-            this._ctx.drawImage(img, item.x, item.y, this.size, this.size)
+            img.onload = () => {
+              this._ctx.drawImage(img, item.x, item.y, this.size, this.size)
+            }
             break;
           default:
             this._ctx.rect(item.x, item.y, this.size, this.size)
