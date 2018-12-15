@@ -48,6 +48,7 @@
 | type     | string        | arc        | 粒子的类型 （arc square rect icon）|
 |style-type | string       | fill       | 粒子的填充方式 (stroke)|
 | space   | number         |      200   | 随机产生粒子的间距   |
+| nums    | number         | 20         | 粒子出现的次数      |
 | drawImg   | Array        |       []   | icon模式下使用的粒子图 |
 | pause    | Boolean       | false      | 暂停动画 |
 | complete  | function     |            | 每一次动画完成调用 返回值是index| |
