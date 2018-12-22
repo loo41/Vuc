@@ -3,6 +3,7 @@
     <vuc-carousel 
       :imgs="imgs"
       :nums="200"
+      :time="2000"
       type="rect"
       :color="['red', 'green', 'gray', 'blue']"
       dir="bottom"
@@ -17,7 +18,7 @@ import imgThree from './assets/three.jpg'
 export default {
   data () {
     return {
-      imgs: [imgOne, imgTwo, imgThree]
+      imgs: [imgOne, imgTwo, imgThree, imgOne, imgTwo, imgThree]
     }
   }
 }

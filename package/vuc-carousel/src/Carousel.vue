@@ -5,8 +5,11 @@
     </canvas>
     <div class="canvas-img" :style="'height:' + H + 'px;width:' + W + 'px'">
       <div class="img-box" ref="canvasImg">
-        <div v-for="(item, inx) in imgs" :key="inx" :style="inx === index? 'z-index: 11': ''">
+        <div v-for="(item, inx) in imgsRank" :key="inx" >
           <img :src="item" :height="H" :width="W" />
+        </div>
+        <div style="z-index: 11" :key="ariseImg">
+          <img :src="ariseImg" :height="H" :width="W" />
         </div>
       </div>
     </div>
@@ -21,7 +24,9 @@ export default {
   data () {
    return {
       particle: [],
-      img: [drawImg]
+      img: [drawImg],
+      inx: 0,
+      ariseImg: ''
    }
   },
   mounted () {
@@ -32,6 +37,24 @@ export default {
   },
   created () {
     this.init()
+  },
+  computed: {
+    imgsRank () {
+      let imgArray = []
+      const { imgs, index } = this
+      if (index === this.imgs.length - 1) return imgs
+      if (!index) {
+        imgArray.push(imgs.shift())
+        imgArray = imgs.concat(imgArray)
+      } else {
+        const LEN = imgs.length - 1
+        let flagArray = imgs.slice(index)
+        imgArray.push(flagArray.shift())
+        imgArray = flagArray.concat(imgs.slice(0, index)).concat(imgArray)
+      }
+      this.ariseImg = imgArray.pop()
+      return imgArray
+    }
   },
   props: {
     imgs: {
@@ -120,6 +143,7 @@ export default {
     },
     init () {
       this.len = this.imgs.length
+      this.inx = this.len - 1
     },
     _animation () {
       if (this.len <= 0 || this.pause) return
@@ -143,11 +167,11 @@ export default {
     _clearAnimation () {
       if (this.particle.length < 10) {
         this._ctx.clearRect(0, 0, this.W, this.H)
-        let index = this.index
-        this.complete(this.index)
-        if (this.index === this.len - 1) index = -1
+        let index = this.inx
+        this.complete(this.inx)
+        if (this.inx === this.len - 1) index = -1
         index = index + 1
-        this.index = index
+        this.inx = index
         this.particle = []
         setTimeout(() => {this._animation()}, this.time)
         return
@@ -161,9 +185,10 @@ export default {
       const DIR = this.dir
       let W = DIR === 'bottom'? this.H: this.W
       let H = DIR === 'bottom'? this.W: this.H
+      // let size = DIR === 'bottom'? H: W
       const LOCATION = W - (W / 100) * location
-      this.dom[this.index + 1 > this.len - 1? 0: this.index + 1].style.cssText = `z-index: 9`
-      this.dom[this.index].style.cssText = `${DIR === 'bottom'? 'height': 'width'}: ${LOCATION}px; z-index: 10`
+      this.dom[this.inx + 1 > this.len - 1? 0: this.inx + 1].style.cssText = `z-index: 9`
+      this.dom[this.inx].style.cssText = `${DIR === 'bottom'? 'height': 'width'}: ${LOCATION}px; z-index: 10`
       for (let i = Math.floor(Math.random() * this.space), len = H; i < len; i += Math.floor(Math.random() * this.space)) {
         this.particle.push({
           x: DIR === 'bottom'? i: LOCATION,
