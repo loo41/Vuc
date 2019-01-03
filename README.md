@@ -41,7 +41,7 @@ export default {
 ### Component
 - [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
-- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) [👀](http://vuc.tianchenyong.top/#/identify)
+- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vuc-input) [👀](http://vuc.tianchenyong.top/#/identify)
 
 - [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel) [👁️](http://vuc.tianchenyong.top/#/carousel)
 
