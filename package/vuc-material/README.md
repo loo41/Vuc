@@ -2,6 +2,10 @@
 
 ---
 
+[中文文档](https://github.com/loo41/vuc/blob/master/package/vuc-material/doc/Chinese.md)
+
+---
+
 ### Install
 
 ```
@@ -15,12 +19,13 @@
 ### Basic use 
 
 ```
-    全局
+    // Global
     
     import vucMaterial from 'vuc-material'
     Vue.use(vucMaterial)
     
-    局部
+    // Local
+    
     import {vucMaterial} from 'vuc-material'
     export default {
       components: {vucMaterial}
@@ -30,18 +35,18 @@
 
 ---
 
-### 全局属性方法
+### Global Attribute Method
 
-|   属性   |      类型     |   默认值   |       说明       |
+|   Attribute   |      Type     |   Default value   |       Explain       |
 |----------| ------------- | ---------- | ---------------- |
-| switch   | Boolean       | true       | 是否点击切换     |
-| color    | Array         | []         | 图案出现的随机色 |
-| output   | String        | background | 输出模式 (background、image、canvas)|
-| quality  | number        | 1          | image模式下的图片质量 |
+| switch   | Boolean       | true       | Whether to click Toggle    |
+| color    | Array         | []         | Random colors of patterns  |
+| output   | String        | background | Output mode  (background、image、canvas)|
+| quality  | number        | 1          | Image quality in image mode  |
 
 
-### 感谢
+### Thank
 
 [MaterialImage](https://github.com/yscoder/MaterialImage)
 
-### 欢迎 pr issues star
+### Welcome pr issues star

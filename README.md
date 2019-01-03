@@ -6,25 +6,30 @@
 
 ---
 
-### [demo预览](http://vuc.tianchenyong.top)
+### [Demo](http://vuc.tianchenyong.top)
 
 ---
 
-### 安装
-```
-npm install --save 对应的包 (vuc-input)
+[中文文档](https://github.com/loo41/vuc/blob/master/doc/Chinese.md)
 
-yarn add 对应的包 (vuc-input)
+---
+
+### Install
+```
+npm install --save vuc-input || vuc-carousel ||.....
+
+yarn add vuc-input || vuc-carousel || ......
 ```
 
-### 使用
+### Basic use
 ```
-// vuc-input 包
+// vuc-input package
+// Global
 
 import vucInput from 'vuc-input'
 Vue.use(vucInput)
 
-局部
+// Local
 import {vucInput} from 'vuc-input'
 export default {
   components: {vuc-input}
@@ -33,7 +38,7 @@ export default {
 
 ---
 
-### 组件
+### Component
 - [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
 - [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) [👀](http://vuc.tianchenyong.top/#/identify)
@@ -45,36 +50,36 @@ export default {
 - [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) [👁️](http://vuc.tianchenyong.top/#/materia)
 
 
-### 参考
+### Thank
 
-- [图像处理](https://www.cnblogs.com/st-leslie/p/8317850.html?utm_source=debugrun&utm_medium=referral)
+- [Image processing](https://www.cnblogs.com/st-leslie/p/8317850.html?utm_source=debugrun&utm_medium=referral)
 
 - [MaterialImage](https://github.com/yscoder/MaterialImage)
 
 
-### 测试
+### Test use
 
-- 每个包都是可以进行开发调试
+- Each package can be developed and debugged
 
-- 克隆或下载库之后打开你需要调试的包
+- Open the package you need to debug after cloning or downloading the library 
 
 - npm install
 
-- npm run dev (调试模式，将 webpack 的 entry 路径改为 ./example/main.js)
+- npm run dev (Debug mode, Change the entry path of webpack to ./example/main.js)
 
-- npm run build （打包模式，将 webpack 的 entry 路径改为 ./src/main.js）
+- npm run build （Production mode，Change the entry path of webpack to ./src/main.js）
 
 
-### 开发计划
+### Development plan
 
-- canvas 画板插件
+- canvas Sketchpad
 
 ### Tip
 
-- 每个包是单独加载
-- demo配置不完整
+- Each package is loaded separately 
+- Incomplete demo configuration
 
-### END
+### End
 ```
-期待您的加入
+Looking forward to your contribution 
 ```

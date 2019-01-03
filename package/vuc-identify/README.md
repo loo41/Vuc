@@ -2,6 +2,10 @@
 
 ---
 
+[中文文档](https://github.com/loo41/vuc/blob/master/package/vuc-identify/doc/Chinese.md)
+
+---
+
 ### Install
 
 ```
@@ -12,15 +16,16 @@
 
 ---
 
-### Basic use 
+### Basic use
 
 ```
-    全局
+    // Global
     
     import vucIdentify from 'vuc-identify'
     Vue.use(vucIdentify)
     
-    局部
+    // Local
+    
     import {vucIdentify} from 'vuc-identify'
     export default {
       components: {vucIdentify}
@@ -30,34 +35,34 @@
 
 ---
 
-### 全局属性方法
+### Global Attribute Method
 
-|   属性   |      类型      |   默认值   |    说明    |
-|----------| ------------- | ---------- | ---------- |
-| color    | Array         | []         | 绘制粒子和干扰线效果颜色 |
-| H        | number        | 150         | 高|
-| W        | number        | 300         | 宽|
-|particleNum| number       | 150         | 粒子数量 |
-|font      | Array         | [60, 80]    | 绘制字体大小的区间 |
-|text      | String        | loo41       | 文本 |
-|textColor | Array         | []          | 绘制文本的颜色 如果不存在 会使用随机色|
-| random   | Boolean      | false       | 在点击切换的时候开启随机生成模式|
-| randomType | String     | ''          | 随机模式的类型 (math, string '')|
-|randomLength| number     | 4           | 随机生成模式文本的长度 |
-|background | string      | rgba(0, 0, 0, 0.2) | 背景色 |
-|fontFamily | string      | Arial | 文本字体 |
-| clickStatus | Boolean   | true | 点击状态下是否更改会执行changeQr事件 自定义更改  |
-| type     | string        | rect       | 粒子的类型 (arc square rect icon) icon可实现自定义效果|
-|styleType | string        | fill       | 粒子是描边还是填充样式 (stroke 可选)|
-| size     | number        | 10         |      粒子的尺寸     |
-| drawImg  | Array         | []         | icon模式下绘制的图片 (建议是icon的png图片)|
-|interfereNum | number     | 5          | 干扰线的数量  |
-|interfereWidth | Array   | [1, 5]     | 干扰线的宽度区间 |
-|textValue |Fun            |           | 每次更改的事件 参数是渲染的文本|
-|clickQr  | Fun           |            | 点击事件为true时候执行的函数 (可在该函数下做文本的调整渲染)|
+|   Attribute   |      Type      |   Default value   |    Explain    |
+|----------| ------------- | ----------- | ---------- |
+| color    | Array         | []          | Drawing Particle and Interference Line Effect Colors  |
+| H        | number        | 150         | height |
+| W        | number        | 300         | width |
+|particleNum| number       | 150         | Particle size |
+|font      | Array         | [60, 80]    | Draw font size intervals  |
+|text      | String        | loo41       | text |
+|textColor | Array         | []          | Random colors are used if the colors of the rendered text do not exist |
+| random   | Boolean       | false       | Open Random Generation Mode on Click Switch |
+| randomType | String      | ''          | Types of random patterns (math, string '')|
+|randomLength| number      | 4           | Length of randomly generated pattern text  |
+|background | string       | rgba(0, 0, 0, 0.2) | background |
+|fontFamily | string       | Arial       | Text font |
+| clickStatus | Boolean    | true        | Click-state changes will execute change Qr event customization changes   |
+| type     | string        | rect        | Types of Particles (arc square rect icon) Icon implements custom effects |
+|styleType | string        | fill        | Is the Particle Stroke or Fill Style  (stroke 可选)|
+| size     | number        | 10          |      Particle size     |
+| drawImg  | Array         | []          | Pictures drawn in icon mode  (The suggestion is icon's PNG picture )|
+|interfereNum | number     | 5           | Number of interference lines   |
+|interfereWidth | Array    | [1, 5]      | Width interval of interference line  |
+|textValue |Fun            |             | Event parameters changed each time are rendered text |
+|clickQr  | Fun            |             | Functions executed when clicking event true  (Text can be adjusted and rendered under this function)|
 
 
 
-### 欢迎 pr issues star
+### Welcome pr and issues and star
 
 

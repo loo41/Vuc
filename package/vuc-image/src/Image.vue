@@ -104,9 +104,9 @@ export default {
     },
     _drawImage () {
       const img = new Image()
-      img.setAttribute('crossOrigin', 'anonymous')
       if (!this.imgUrl.length) return
       img.src = this.imgUrl[0]
+      img.crossOrigin = ""
       img.onload = () => {
         switch (this.type) {
           case 'inverse':
