@@ -39,6 +39,9 @@ export default {
 ---
 
 ### Component
+
+- [vuc-scratch 新](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
+
 - [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
 - [vuc-input](https://github.com/loo41/vuc/tree/master/package/vuc-input) [👀](http://vuc.tianchenyong.top/#/identify)
