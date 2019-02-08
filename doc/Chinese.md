@@ -39,7 +39,7 @@ export default {
 
 ### 组件
 
-- [vuc-picture-contrast 新](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/pictureC)
+- [vuc-picture-contrast 新](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast) [👁️](http://vuc.tianchenyong.top/#/pictureC)
 
 - [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
 
