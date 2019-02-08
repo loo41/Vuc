@@ -4,8 +4,8 @@
 
 |   名     |                                链接                                 |
 |----------| ------------------------------------------------------------------- |
-| 中文文档  | [👀](hhttps://github.com/loo41/vuc/blob/master/package/vuc-picture-contrast/doc/Chinese.md)|
-| Example  | [👀](hhttps://github.com/loo41/Vuc/tree/master/package/vuc-picture-contrast/example)|
+| 中文文档  | [👁️](https://github.com/loo41/vuc/blob/master/package/vuc-picture-contrast/doc/Chinese.md) |
+| Example  | [👁️](https://github.com/loo41/Vuc/tree/master/package/vuc-picture-contrast/example) |
 
 
 ---
