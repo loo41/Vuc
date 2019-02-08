@@ -40,7 +40,9 @@ export default {
 
 ### Component
 
-- [vuc-scratch 新](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
+- [vuc-picture-contrast new](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/pictureC)
+
+- [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
 
 - [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
 
