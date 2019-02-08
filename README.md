@@ -6,11 +6,11 @@
 
 ---
 
-### [Demo](http://vuc.tianchenyong.top)
+|   $$    |                                链接                                 |
+|----------| ------------------------------------------------------------------- |
+| Demo  | [👁️](http://vuc.tianchenyong.top) |
+| 中文文档  | [👁️](https://github.com/loo41/vuc/blob/master/doc/Chinese.md) |
 
----
-
-[中文文档](https://github.com/loo41/vuc/blob/master/doc/Chinese.md)
 
 ---
 
@@ -39,20 +39,15 @@ export default {
 ---
 
 ### Component
-
-- [vuc-picture-contrast new](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast) [👁️](http://vuc.tianchenyong.top/#/pictureC)
-
-- [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
-
-- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
-
-- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vuc-input) [👀](http://vuc.tianchenyong.top/#/identify)
-
-- [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel) [👁️](http://vuc.tianchenyong.top/#/carousel)
-
-- [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image) [👀](http://vuc.tianchenyong.top/#/image)
-
-- [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) [👁️](http://vuc.tianchenyong.top/#/materia)
+|   package     |                                preview                         |
+|----------| ------------------------------------------------------------------- |
+| [vuc-picture-contrast new](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast)|[👁️](http://vuc.tianchenyong.top/#/pictureC) |
+| [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch)  | [👁️](http://vuc.tianchenyong.top/#/scratch) |
+| [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) |[👀](http://vuc.tianchenyong.top/#/)|
+|[vuc-input](https://github.com/loo41/vuc/tree/master/package/vuc-input)|[👀](http://vuc.tianchenyong.top/#/identify)|
+| [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel)|[👁️](http://vuc.tianchenyong.top/#/carousel)|
+| [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image) | [👀](http://vuc.tianchenyong.top/#/image)|
+| [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) |[👁️](http://vuc.tianchenyong.top/#/materia)|
 
 
 ### Thank
