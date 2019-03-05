@@ -41,7 +41,8 @@ export default {
 ### Component
 |   package     |                                preview                         |
 |----------| ------------------------------------------------------------------- |
-| [vuc-picture-contrast new](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast)|[👁️](http://vuc.tianchenyong.top/#/pictureC) |
+| [vuc-color](https://github.com/loo41/vuc/tree/master/package/vuc-color)|[👁️](http://vuc.tianchenyong.top/#/color) |
+| [vuc-picture-contrast](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast)|[👁️](http://vuc.tianchenyong.top/#/pictureC) |
 | [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch)  | [👁️](http://vuc.tianchenyong.top/#/scratch) |
 | [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) |[👀](http://vuc.tianchenyong.top/#/)|
 |[vuc-input](https://github.com/loo41/vuc/tree/master/package/vuc-input)|[👀](http://vuc.tianchenyong.top/#/identify)|
