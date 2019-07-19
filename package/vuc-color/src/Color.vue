@@ -16,6 +16,7 @@ export default {
       },
       arise: false,
       draImg: '',
+      timer: null,
       wrp: {
         left: 0,
         top: 0
@@ -68,6 +69,12 @@ export default {
         this.imageData = this._ctx.getImageData(0, 0, width, height).data
         this._getOffset()
         this.initEvent()
+      })
+      window.addEventListener('resize', () => {
+        if (this.timer) clearTimeout(this.timer)
+        this.timer = setTimeout(() => {
+          this._getOffset()
+        }, 1000)
       })
     },
     _getOffset () {

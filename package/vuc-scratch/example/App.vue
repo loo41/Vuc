@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import {vucScratch} from '../dist/vuc-scratch.js'
+import {vucScratch} from '../src/main'
 export default {
   data () {
     return {
