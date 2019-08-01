@@ -54,6 +54,7 @@
 | font     | string        | 30px Georgia |  watermark模式文字样式     |
 | fontColor| string        | white      | watermark模式文字颜色|
 |cameoConst | number    | 128           | cameo 模式下对比值 |
+| pro     | Array        | [250, 150]   | 控制展示图大小 |
 | click   | fun           |             | 图片点击事件 |
 | dir     | string       | top          | top / left |
 | img     | Array        | []           | (必须) 第一个值为基础图片， 第二个为可以d自定义图片     |

@@ -1,7 +1,7 @@
 {
   "name": "vuc-input",
   "description": "A vue-canvas effects components",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "ChenYong Tian <1805170243@qq.com>",
   "license": "MIT",
   "main": "dist/vuc-input.js",

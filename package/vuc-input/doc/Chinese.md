@@ -57,6 +57,7 @@
 | focus    | function      |            | 输入框聚焦事件 |
 | blur     | function      |            | 输入框失焦事件 |
 | change   | function      |            | 输入框改变事件 |
+| alpha    | Number | Boolean      | true      | 粒子透明度是否随机, true 随机, false 或数字不随机，数字会控制透明度，false会为1 |
 
 
 ### 提示

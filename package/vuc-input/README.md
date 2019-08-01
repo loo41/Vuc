@@ -58,7 +58,7 @@
 | focus    | function      |            |  |
 | blur     | function      |            |  |
 | change   | function      |            |  |
-
+| alpha    | Number | Boolean      | true      | Whether the transparency of particles is random, true is random, false or number is not random, number will control transparency, false will be 1 |
 
 ### Tip
 

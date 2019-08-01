@@ -5,12 +5,15 @@
       v-model="inputValue"
     />
     <vucInput 
-      type="square"
+      type="arc"
+      :alpha="false"
       v-model="inputValue2"
+      :color="['red', 'green', 'blue']"
     />
     <vucInput 
       v-model="inputValue3"
       styleType="stroke"
+      :alpha="3"
       type="arc"
     />
   </div>

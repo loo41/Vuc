@@ -113,6 +113,24 @@ export default {
         this.initLay()
         this._setEvent()
       }
+    },
+    H (oldValue, newValue) {
+      if (oldValue !== newValue) {
+        this.initLay()
+        this._setEvent()
+      }
+    },
+    W (oldValue, newValue) {
+      if (oldValue !== newValue) {
+        this.initLay()
+        this._setEvent()
+      }
+    },
+    pro (oldValue, newValue) {
+      if (String(oldValue) !== String(newValue)) {
+        this.initLay()
+        this._setEvent()
+      }
     }
   },
   methods: {

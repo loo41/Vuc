@@ -94,6 +94,10 @@ export default {
       type: Array,
       default: () => ['black']
     },
+    alpha: {
+      type: [Number, Boolean],
+      default: true
+    },
     inputStyle: {
       type: String,
       default: `
@@ -139,7 +143,6 @@ export default {
       }
     },
     _checkFocus () {
-      console.log('1')
       setTimeout(() => this.$refs.input.focus())
       this._moveEnd(this.$refs.input)
     },
@@ -197,7 +200,7 @@ export default {
           aimX: mergeAndSpread? x: aimX,
           aimY: mergeAndSpread? y: aimY,
           dir: this._dir(x, y, aimX, aimY),
-          alpha: Math.random(),
+          alpha: this.alpha === true? Math.random(): this.alpha === false? 1: this.alpha,
           comple: false,
           mergeAndSpread,
         })

@@ -57,6 +57,7 @@
 | fontColor| string        | white      | Watermark mode text color |
 |cameoConst | number    | 128           | cameo Contrast value in mode |
 | click   | Fun           |             | Picture Click Event |
+| pro     | Array        | [250, 150]   |  Control the size of the display chart |
 | dir     | string       | top          | top / left |
 | img     | Array        | []           | (must) The first value must be a custom image, and the second value must be a custom image    |
 
