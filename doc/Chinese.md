@@ -6,8 +6,6 @@
 
 ---
 
-### [Demo预览](http://vuc.tianchenyong.top)
-
 ---
 
 [English document](https://github.com/loo41/vuc/blob/master/README.md)
@@ -39,21 +37,21 @@ export default {
 
 ### 组件
 
-- [vuc-color](https://github.com/loo41/vuc/tree/master/package/vuc-color) [👀](http://vuc.tianchenyong.top/#/color)
+- [vuc-color](https://github.com/loo41/vuc/tree/master/package/vuc-color) 
 
-- [vuc-picture-contrast](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast) [👁️](http://vuc.tianchenyong.top/#/pictureC)
+- [vuc-picture-contrast](https://github.com/loo41/vuc/tree/master/package/vuc-picture-contrast) 
 
-- [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch) [👁️](http://vuc.tianchenyong.top/#/scratch)
+- [vuc-scratch](https://github.com/loo41/vuc/tree/master/package/vuc-scratch)
 
-- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) [👀](http://vuc.tianchenyong.top/#/)
+- [vuc-identify](https://github.com/loo41/vuc/tree/master/package/vuc-identify) 
 
-- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) [👀](http://vuc.tianchenyong.top/#/identify)
+- [vuc-input](https://github.com/loo41/vuc/tree/master/package/vec-input) 
 
-- [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel) [👁️](http://vuc.tianchenyong.top/#/carousel)
+- [vuc-carousel](https://github.com/loo41/vuc/tree/master/package/vuc-carousel) 
 
-- [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image) [👀](http://vuc.tianchenyong.top/#/image)
+- [vuc-image](https://github.com/loo41/vuc/tree/master/package/vuc-image) 
 
-- [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) [👁️](http://vuc.tianchenyong.top/#/materia)
+- [vuc-material](https://github.com/loo41/vuc/tree/master/package/vuc-material) 
 
 
 ### 参考
